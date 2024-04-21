@@ -1,0 +1,9 @@
+[tabindex]:not(.ui-dialog) {
+	color: firebrick;
+	font-weight: bold;
+}
+
+[tabindex^="-"]:not(.ui-dialog) {
+	color: black;
+	text-decoration-line: line-through;
+}
